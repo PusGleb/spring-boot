@@ -23,6 +23,7 @@ public class Application {
         for (String beanName : beanNames) {
             System.out.println(beanName);
         }
+        StringTest test = new StringTest();
     }
 }
 
